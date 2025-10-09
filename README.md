@@ -1,10 +1,3 @@
-Got it 👍 Let’s create a professional and informative **README.md** file for your GitHub repository `DSA` — written in Java and focused on Data Structures & Algorithms.
-
-Here’s a well-structured version you can use directly:
-
----
-
-````markdown
 # 🧠 DSA — Data Structures & Algorithms in Java
 
 Welcome to the **DSA (Data Structures and Algorithms)** repository!  
@@ -105,13 +98,3 @@ This project is open source and available under the [MIT License](LICENSE).
 📍 Junior Developer | Web & IoT Enthusiast
 💼 [GitHub Profile](https://github.com/Lasirena69w)
 
-> *"Every great programmer was once a beginner who never gave up."* 🧩
-
----
-
-```
-
----
-
-Would you like me to make this **slightly more academic** (for portfolio / resume use) or **more casual and friendly** (for GitHub learning repo style)?
-```
