@@ -1,0 +1,32 @@
+# Compiled class files
+*.class
+
+# Package Files
+# Exclude all .class files in any directory
+# This specifically covers your generated files like:
+# - Stack_Example_01.class
+# - Stack_Example_01/Stack.class
+# - Stack_Example_01/EmptyStackException.class
+**/Stack_Example_01/*.class
+
+# Log files
+*.log
+
+# Mobile Development (Android/Kotlin)
+/build/
+
+# Package Management
+# Maven / Gradle / etc.
+/target/
+/bin/
+
+# IDE files (e.g., VS Code, IntelliJ, Eclipse)
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS generated files
+.DS_Store
+Thumbs.db
