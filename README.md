@@ -16,7 +16,7 @@ You'll need a Java Development Kit (JDK) installed on your system to run these e
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/Lasirena69w/DSA.git](https://github.com/Lasirena69w/DSA.git)
+    git clone https://github.com/LaSirena-cell/DSA.git
     cd DSA
     ```
 
@@ -25,10 +25,10 @@ You'll need a Java Development Kit (JDK) installed on your system to run these e
 3.  **To compile and run a specific example** (e.g., `Array_Example_01.java`):
     ```bash
     # Compile
-    javac src/arrays/Array_Example_01.java
+    javac Array_Example_01/Example01/Array_Example_01.java Array_Example_01/Example01/Array.java
 
-    # Run (assuming the compiled class is in the current directory)
-    java Array_Example_01
+    # Run
+    java Example01.Array_Example_01
     ```
 
 ---
@@ -39,23 +39,19 @@ All examples are organized by topic for easy navigation.
 
 | Topic | Description | Directory |
 | :--- | :--- | :--- |
-| **Arrays** | Basic operations: creation, insertion, deletion, searching, and traversal. | `src/arrays` |
-| **Linked Lists** | Singly, Doubly, and Circular Linked List implementations. | `src/linkedlists` |
-| **Stacks & Queues** | Implementations using arrays and linked lists. | `src/stacks-queues` |
-| **Trees** | Binary Trees, Binary Search Trees (BST), and AVL Trees. | `src/trees` |
-| **Graphs** | Traversals (BFS, DFS) and fundamental algorithms. | `src/graphs` |
-| **Sorting** | Bubble, Merge, Quick, Insertion, and Selection Sort. | `src/sorting` |
-| **Searching** | Linear and Binary Search implementations. | `src/searching` |
-| **Recursion** | Classic recursive problems and backtracking. | `src/recursion` |
-| **Dynamic Programming** | Basic problems demonstrating memoization and tabulation. | `src/dp` |
-| **Hashing** | Hash Tables, Sets, and Maps. | `src/hashing` |
+| **Arrays** | Basic operations: creation, insertion, deletion and searching. | `Array_Example_01`, `Array_Example_02`, `Array_Example_03`, `Array_Example_04` |
+| **Stacks** | Implementations using arrays and linked lists. | `Stack_Example_01` |
 
-### Current Focus: Arrays
+### Current Focus: Arrays and Stacks
 
-The `src/arrays` directory currently contains:
-* `Array_Example_01.java`: Basic declaration and traversal.
-* `Array_Example_02.java`: Insertion and deletion operations.
-* `Array_Example_03.java`: Searching for elements.
+The `Array` examples contain:
+* `Array_Example_01`: Basic array creation and adding elements.
+* `Array_Example_02`: Inserting elements at a specific index.
+* `Array_Example_03`: Searching for elements.
+* `Array_Example_04`: Deleting elements.
+
+The `Stack` examples contain:
+* `Stack_Example_01`: Implementation of Stack using both array and linked list.
 
 > 💡 **Principle:** Each example prioritizes **clarity** and is designed to be **beginner-friendly**, focusing on the core concept over complex optimizations.
 
@@ -99,4 +95,4 @@ This project is open-source and distributed under the **MIT License**. See the `
 
 **Loma Sama (Lasirena69w)**
 * **Role:** Junior Developer | Web & IoT Enthusiast
-* **GitHub:** [https://github.com/Lasirena69w](https://github.com/Lasirena69w)
+* **GitHub:** [https://github.com/LaSirena-cell](https://github.com/LaSirena-cell/DSA.git)
